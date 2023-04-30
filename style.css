@@ -1,17 +1,22 @@
+/**Styling for Main Body**/
 body{
     background-color: lightslategrey;
   
 }
+/****/
 #container{
     height: fit-content;
     width: fit-content;
    
     
 }
+/**Styling for navigation link to other sections**/
 nav{
     margin-top: 10px;
-    ,margin-left: 4px;
+    margin-left: 4px;
 }
+
+/**Styling for Homepage Nav**/
 #homepage{
     border:1px solid black;
     width: 24%;
@@ -22,6 +27,8 @@ nav{
     border-radius: 8px;
     padding: 2px;
 }
+
+/**Hover effect for Homepage id**/
 #homepage:hover{
     background-color:whitesmoke ;
     color: black;
@@ -30,6 +37,7 @@ nav{
     font-style: italic;
 }
 
+/**Styling for About Nav**/
 #about{
     border:1px solid black;
     width: 24%;
@@ -40,6 +48,8 @@ nav{
     border-radius: 8px;
     padding: 2px;
 }
+
+/**Hover effect for About id**/
 #about:hover{
     background-color:whitesmoke ;
     color: black;
@@ -47,6 +57,8 @@ nav{
     border-color: blueviolet;
     font-style: italic;
 }
+
+/**Styling for work and experience Nav**/
 #work{
     border:1px solid black;
     width: 24%;
@@ -57,6 +69,8 @@ nav{
     border-radius: 8px;
     padding: 2px;
 }
+
+/**Hover effect for work and experience id**/
 #work:hover{
     background-color:whitesmoke ;
     color: black;
@@ -64,6 +78,8 @@ nav{
     border-color: blueviolet;
     font-style: italic;
 }
+
+/**Styling for Skills and Expertise Nav**/
 #skill{
     border:1px solid black;
     width: 24%;
@@ -74,6 +90,8 @@ nav{
     border-radius: 8px;
     padding: 2px;
 }
+
+/**Hover effect for skill and expertise id**/
 #skill:hover{
     background-color:whitesmoke ;
     color: black;
@@ -81,6 +99,8 @@ nav{
     border-color: blueviolet;
     font-style: italic;
 }
+
+/**Styling for Contact Me Nav**/
 #contact{
     border:1px solid black;
     width: 24%;
@@ -90,7 +110,10 @@ nav{
     color: white;
     border-radius: 8px;
     padding: 2px;
-}#contact:hover{
+}
+
+/**Hover effect for Contact Me id**/
+#contact:hover{
     background-color:whitesmoke ;
     color: black;
     padding:2px;
@@ -101,6 +124,8 @@ h6{
     margin-left: 500px;
     margin-top: -5px;
 }
+
+/**Styling for Menu section**/
 .menu{
     border-radius:30px 30px 0px 0px;
     background-color: rgb(192, 76, 147);
@@ -110,6 +135,8 @@ h6{
     border: 2px solid black;
     min-height: 5vh;
 }
+
+/**Styling for Main Portfolio Body section**/
 .main{
     border-radius:0px 0px 30px 30px;
     background-color: rgb(149, 169, 194);
@@ -120,6 +147,8 @@ h6{
     min-width: 100vh;
     
 }
+
+/**Styling for all header comments**/
 header{
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
     font-style: italic;
@@ -127,6 +156,8 @@ header{
     text-align: center;
 
 }
+
+/**Styling for pictures attached**/
 #picture{
     width: 250px; height: 250px;
     margin-left: 250px;
@@ -143,6 +174,8 @@ h5{
     margin-left: 200px;
     margin-top: 50px;
 }
+
+/**Styling for About Section**/
 #about1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
     font-style: italic;
@@ -150,6 +183,8 @@ h5{
     margin-left: 12px;
     font-weight: bold;
 }
+
+/**Styling for About section 2**/
 #about2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
     font-style: italic;
@@ -159,6 +194,8 @@ h5{
     margin-top: 90px;
 
 }
+
+/**Styling for Picture sample1**/
 #sample1{
     margin-top: -50px;
     margin-left: 400px;
@@ -166,6 +203,8 @@ h5{
     width: 40%;
     border-radius: 10px;
 }
+
+/**Styling for Picture sample2**/
 #sample2{
     margin-top: -50px;
     margin-left: 350px;
@@ -173,12 +212,16 @@ h5{
     width: 40%;
     border-radius: 10px;
 }
+
+/**Styling for Picture sample3**/
 #sample3{
     margin-left: 30px;
     height: 20%;
     width: 20%;
     border-radius: 10px;
 }
+
+/**Styling for Work and Experience section**/
 #work1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
     font-style: italic;
@@ -187,6 +230,8 @@ h5{
     font-weight: 300;
     margin-top: 50px;
 }
+
+/**Styling for about3 section**/
 #about3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
     font-style: italic;
@@ -195,6 +240,8 @@ h5{
     font-weight: 300;
     margin-top: 60px;
 }
+
+/**Styling for expertise and skill section**/
 #expertise{
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
     font-style: italic;
@@ -204,6 +251,8 @@ h5{
     color: black;
 
 }
+
+/**Styling for social media icons**/
 .linkedin-pic{
     height: 30px;width: 30px;
 }
@@ -211,6 +260,8 @@ h5{
     size: 10%;
 
 }
+
+/**Styling for Picture pict**/
 #pict{
     width: 300px; height: 300px;
     margin-left: 300px;
@@ -231,6 +282,8 @@ h5{
 
 
 }
+
+/**Styling for linkedin link**/
 .linkedin-link{
     margin-top: -5px;
     margin-left: 5px;
@@ -240,6 +293,8 @@ h5{
     border-color: brown 2px;
     background-size: 20px;
 }
+
+/**Styling for twitter link**/
 .twitter-link{
     margin-top: -40px;
     margin-left: 200px;
@@ -249,6 +304,8 @@ h5{
     border-color: brown 2px;
     background-size: 20px;
 }
+
+/**Styling for github link**/
 .Github-link{
     margin-top: -40px;
     margin-left: 400px;
